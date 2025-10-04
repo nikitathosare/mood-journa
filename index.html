@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mood Journal</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🌤️ My Mood Journal</h1>
+    <form action="journal.php" method="POST">
+      <label for="mood_date">Select Date:</label>
+      <input type="date" id="mood_date" name="mood_date" required />
+
+      <label for="mood">How are you feeling today?</label>
+      <textarea id="mood" name="mood" rows="4" placeholder="Write your thoughts..." required></textarea>
+
+      <button type="submit">Save Entry</button>
+    </form>
+
+    <a href="view.php" class="view-link">View Past Entries</a>
+  </div>
+</body>
+</html>
