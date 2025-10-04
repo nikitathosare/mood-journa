@@ -70,11 +70,7 @@ Start Apache & MySQL from the XAMPP control panel.
 Open your browser and go to:
 http://localhost/mood-journal/index.html
 
-🪄 Example Screenshots
-![](./img/1753816597350.jpeg)
-![](./img/1753816597078.jpeg)
-![](./img/1753816596332.jpeg)
-![](./img/1753816596308.jpeg)
+
 
 🧑‍💻 Author
 
