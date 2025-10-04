@@ -4,6 +4,11 @@
 A simple and elegant **PHP + MySQL web app** that helps users record and reflect on their daily moods.  
 You can write, view, and delete your mood entries — all stored securely in a MySQL database.
 
+![](./img/1753816597350.jpeg)
+![](./img/1753816596332.jpeg)
+![](./img/1753816597078.jpeg)
+![](./img/1753816596308.jpeg)
+
 ---
 
 ## 📁 Project Structure
