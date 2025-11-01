@@ -1,5 +1,5 @@
 # mood-journa
-# 🌤️ Mood Journal
+#  Mood Journal
 
 A simple and elegant **PHP + MySQL web app** that helps users record and reflect on their daily moods.  
 You can write, view, and delete your mood entries — all stored securely in a MySQL database.
@@ -11,7 +11,7 @@ You can write, view, and delete your mood entries — all stored securely in a M
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 mood-journal/
 ├── index.html # Main page to add mood entries
 ├── journal.php # Handles mood entry submission
@@ -23,17 +23,17 @@ mood-journal/
 
 ---
 
-## 🧠 Features
+## Features
 
-✨ **Add Mood Entries** – Record your daily thoughts and emotions  
-🕊️ **View Past Entries** – See how your mood has evolved over time  
-🗑️ **Delete Entries** – Remove old or unwanted notes  
-🎨 **Responsive & Calm UI** – Soft gradient theme with a clean layout  
-💾 **MySQL Backend** – Securely stores all your journal data  
+**Add Mood Entries** – Record your daily thoughts and emotions  
+**View Past Entries** – See how your mood has evolved over time   
+**Delete Entries** – Remove old or unwanted notes  
+**Responsive & Calm UI** – Soft gradient theme with a clean layout  
+**MySQL Backend** – Securely stores all your journal data  
 
 ---
 
-## 🖥️ Tech Stack
+## Tech Stack
 
 | Category | Technology |
 |-----------|-------------|
@@ -44,19 +44,19 @@ mood-journal/
 
 ---
 
-## ⚙️ Setup Instructions
+##  Setup Instructions
 
-### 1️⃣ Clone this Repository
+### 1️ Clone this Repository
 ```bash
 git clone https://github.com/<your-username>/mood-journal.git
 cd mood-journal
 
-2️⃣ Create Database
+2️ Create Database
 
 Open MySQL or phpMyAdmin and run:
 SOURCE mood_db.sql;
 
-3️⃣ Configure Database Connection
+3️ Configure Database Connection
 
 Edit db.php if needed:
 $host = 'localhost';
@@ -64,13 +64,13 @@ $user = 'root';
 $password = '';
 $database = 'mood_db';
 
-4️⃣ Start Apache & MySQL
+ 4 Start Apache & MySQL
 
 If using XAMPP:
 
 Start Apache & MySQL from the XAMPP control panel.
 
-5️⃣ Run the App
+5️ Run the App
 
 Open your browser and go to:
 http://localhost/mood-journal/index.html
